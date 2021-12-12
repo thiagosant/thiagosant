@@ -1,4 +1,9 @@
-## Oi sou Thiago. Seja bem vindo (a) ao meu perfil!
+
+<div>
+  <h1>Oi! :wave: Seja bem vindo (a) ao meu perfil!</h1>
+</div>
+
+
 <div align="center">
   <a href="https://github.com/thiagosant">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=thiagosant&show_icons=true&theme=cobalt&include_all_commits=true&count_private=true"/>
@@ -28,20 +33,3 @@
   ![Snake animation](https://github.com/thiagosant/thiagosant/blob/output/github-contribution-grid-snake.svg)
  
 </div>
-
-
-
-<!--
-**thiagosant/thiagosant** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
