@@ -1,0 +1,50 @@
+# OS & File Managers
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+*~
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+
+# Local Previews, Screenshots & Temp Files
+preview*.html
+preview*.png
+*.tmp
+*.temp
+*.log
+tmp/
+temp/
+scratch/
+
+# Local Build / Snake Workflow Outputs
+dist/
+output/
+
+# Python & Node Tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example

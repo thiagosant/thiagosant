@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-label="Thiago S. Melo - ENGENHARIA DE BACKEND &amp; DADOS">
+  <defs>
+    <clipPath id="banner-clip">
+      <rect x="0.5" y="0.5" width="1199" height="299" rx="16"/>
+    </clipPath>
+    <clipPath id="top-bar-clip">
+      <rect x="0" y="0" width="1200" height="3"/>
+    </clipPath>
+    <clipPath id="node-api-clip"><rect x="716" y="118" width="116" height="72" rx="10"/></clipPath>
+    <clipPath id="node-mq-clip"><rect x="866" y="68" width="120" height="64" rx="10"/></clipPath>
+    <clipPath id="node-workers-clip"><rect x="1014" y="68" width="126" height="64" rx="10"/></clipPath>
+    <clipPath id="node-etl-clip"><rect x="866" y="174" width="120" height="64" rx="10"/></clipPath>
+    <linearGradient id="accent-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="sheen-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="top-glow" cx="85%" cy="18%" r="52%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.10"/>
+      <stop offset="55%" stop-color="#4f46e5" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#cbd5e1" fill-opacity="0.7"/>
+    </pattern>
+    <style>
+      @keyframes pulse-ring {
+        0% { transform: scale(1); opacity: 0.75; }
+        70% { transform: scale(2.4); opacity: 0; }
+        100% { transform: scale(2.4); opacity: 0; }
+      }
+      @keyframes flow-dash {
+        to { stroke-dashoffset: -24; }
+      }
+      @keyframes glow-breathe {
+        0%, 100% { opacity: 0.72; }
+        50% { opacity: 1; }
+      }
+      @keyframes chip-dot {
+        0%, 100% { opacity: 0.55; transform: scale(0.92); }
+        50% { opacity: 1; transform: scale(1.15); }
+      }
+      @keyframes led-breathe {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 1; }
+      }
+      @keyframes medallion-wave {
+        0%, 100% { opacity: 0; }
+        18% { opacity: 0.26; }
+        42% { opacity: 0; }
+      }
+      .pulse-circle {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: pulse-ring 2.4s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+      }
+      .flow-line {
+        stroke-dasharray: 5 7;
+        animation: flow-dash 1.8s linear infinite;
+      }
+      .ambient-glow {
+        animation: glow-breathe 6s ease-in-out infinite;
+      }
+      .chip-dot {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: chip-dot 3.5s ease-in-out infinite;
+      }
+      .node-led {
+        animation: led-breathe 2.6s ease-in-out infinite;
+      }
+      .medallion-hl {
+        opacity: 0;
+        animation: medallion-wave 4.5s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#banner-clip)">
+    <rect width="1200" height="300" fill="#ffffff"/>
+    <rect width="1200" height="300" fill="url(#dot-grid)"/>
+    <rect class="ambient-glow" width="1200" height="300" fill="url(#top-glow)"/>
+    <rect x="0" y="0" width="1200" height="3" fill="url(#accent-grad)"/>
+    <g clip-path="url(#top-bar-clip)">
+      <rect x="-220" y="0" width="220" height="3" fill="url(#sheen-grad)">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="1440 0" dur="4.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="16" stroke="#d0d7de" stroke-width="1"/>
+
+  <!-- Left Column: Identity & Value Prop -->
+  <rect x="56" y="42" width="294" height="28" rx="14" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <circle class="pulse-circle" cx="74" cy="56" r="4" fill="#059669"/>
+  <circle cx="74" cy="56" r="4" fill="#059669"/>
+  <text x="88" y="60" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.1" fill="#0284c7">ENGENHARIA DE BACKEND &amp; DADOS</text>
+
+  <text x="56" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="-0.8" fill="#1f2328">Thiago S. Melo</text>
+  <rect x="56" y="136" width="56" height="3.5" rx="1.75" fill="url(#accent-grad)"/>
+
+  <text x="56" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="400" fill="#57606a">Projetando serviços backend escaláveis, arquiteturas</text>
+  <text x="56" y="192" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="400" fill="#57606a">orientadas a eventos e pipelines de dados confiáveis.</text>
+
+  <rect x="56" y="224" width="86" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/><circle class="chip-dot" style="animation-delay: 0s;" cx="70" cy="238" r="3.5" fill="#3776AB"/><text x="80" y="242" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#1f2328">Python</text><rect x="152" y="224" width="90" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/><circle class="chip-dot" style="animation-delay: 0.5s;" cx="166" cy="238" r="3.5" fill="#ED8B00"/><text x="176" y="242" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#1f2328">Java 21</text><rect x="252" y="224" width="90" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/><circle class="chip-dot" style="animation-delay: 1.0s;" cx="266" cy="238" r="3.5" fill="#017CEE"/><text x="276" y="242" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#1f2328">Airflow</text><rect x="352" y="224" width="92" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/><circle class="chip-dot" style="animation-delay: 1.5s;" cx="366" cy="238" r="3.5" fill="#E25A1C"/><text x="376" y="242" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#1f2328">PySpark</text><rect x="454" y="224" width="86" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/><circle class="chip-dot" style="animation-delay: 2.0s;" cx="468" cy="238" r="3.5" fill="#2496ED"/><text x="478" y="242" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#1f2328">Docker</text>
+
+  <!-- Right Column: Architectural Schematic -->
+  <rect x="698" y="28" width="460" height="244" rx="14" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="718" y="52" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.2" fill="#6e7781">ARQUITETURA DE SISTEMAS</text>
+  <circle class="node-led" style="animation-delay: 0s;" cx="1112" cy="48" r="3" fill="#4f46e5"/>
+  <circle class="node-led" style="animation-delay: 0.4s;" cx="1124" cy="48" r="3" fill="#0284c7"/>
+  <circle class="node-led" style="animation-delay: 0.8s;" cx="1136" cy="48" r="3" fill="#059669"/>
+
+  <!-- Flow Connectors -->
+  <path d="M 832 146 C 850 146, 846 100, 866 100" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+  <path class="flow-line" d="M 832 146 C 850 146, 846 100, 866 100" stroke="#0284c7" stroke-width="1.8" fill="none"/>
+  <path d="M 832 162 C 850 162, 846 206, 866 206" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+  <path class="flow-line" d="M 832 162 C 850 162, 846 206, 866 206" stroke="#4f46e5" stroke-width="1.8" fill="none"/>
+  <line x1="986" y1="100" x2="1014" y2="100" stroke="#d0d7de" stroke-width="1.5"/>
+  <line class="flow-line" x1="986" y1="100" x2="1014" y2="100" stroke="#059669" stroke-width="1.8"/>
+  <line x1="986" y1="206" x2="1014" y2="206" stroke="#d0d7de" stroke-width="1.5"/>
+  <line class="flow-line" x1="986" y1="206" x2="1014" y2="206" stroke="#d97706" stroke-width="1.8"/>
+
+  <!-- Traveling Luminous Data-Packet Orbs (origin 0,0, negative begin avoids sitting at 0,0) -->
+  <g>
+    <circle cx="0" cy="0" r="6" fill="#0284c7" fill-opacity="0.28"/>
+    <circle cx="0" cy="0" r="3" fill="#0284c7"/>
+    <animateMotion path="M 832 146 C 850 146, 846 100, 866 100" dur="2.4s" begin="-0.3s" repeatCount="indefinite"/>
+  </g>
+  <g>
+    <circle cx="0" cy="0" r="6" fill="#059669" fill-opacity="0.28"/>
+    <circle cx="0" cy="0" r="3" fill="#059669"/>
+    <animateMotion path="M 986 100 L 1014 100" dur="1.8s" begin="-0.9s" repeatCount="indefinite"/>
+  </g>
+  <g>
+    <circle cx="0" cy="0" r="6" fill="#4f46e5" fill-opacity="0.28"/>
+    <circle cx="0" cy="0" r="3" fill="#4f46e5"/>
+    <animateMotion path="M 832 162 C 850 162, 846 206, 866 206" dur="2.8s" begin="-1.2s" repeatCount="indefinite"/>
+  </g>
+  <g>
+    <circle cx="0" cy="0" r="6" fill="#d97706" fill-opacity="0.28"/>
+    <circle cx="0" cy="0" r="3" fill="#d97706"/>
+    <animateMotion path="M 986 206 L 1014 206" dur="2.0s" begin="-0.6s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Node 1: API Layer -->
+  <g clip-path="url(#node-api-clip)">
+    <rect x="716" y="118" width="116" height="72" rx="10" fill="#ffffff"/>
+    <rect x="716" y="118" width="116" height="3" fill="#0284c7"/>
+  </g>
+  <rect x="716.5" y="118.5" width="115" height="71" rx="10" stroke="#d0d7de" stroke-width="1"/>
+  <circle cx="732" cy="140" r="4" fill="#0284c7"/>
+  <text x="742" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1f2328">Camada API</text>
+  <text x="728" y="168" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#57606a">FastAPI · Spring</text>
+
+  <!-- Node 2 Upper: RabbitMQ -->
+  <g clip-path="url(#node-mq-clip)">
+    <rect x="866" y="68" width="120" height="64" rx="10" fill="#ffffff"/>
+    <rect x="866" y="68" width="120" height="3" fill="#0284c7"/>
+  </g>
+  <rect x="866.5" y="68.5" width="119" height="63" rx="10" stroke="#d0d7de" stroke-width="1"/>
+  <circle class="node-led" style="animation-delay: 0s;" cx="972" cy="84" r="2.6" fill="#0284c7"/>
+  <text x="878" y="95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1f2328">RabbitMQ</text>
+  <text x="878" y="115" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#57606a">Mensageria</text>
+
+  <!-- Node 3 Upper: Async Workers -->
+  <g clip-path="url(#node-workers-clip)">
+    <rect x="1014" y="68" width="126" height="64" rx="10" fill="#ffffff"/>
+    <rect x="1014" y="68" width="126" height="3" fill="#059669"/>
+  </g>
+  <rect x="1014.5" y="68.5" width="125" height="63" rx="10" stroke="#d0d7de" stroke-width="1"/>
+  <circle class="node-led" style="animation-delay: 0.8s;" cx="1126" cy="84" r="2.6" fill="#059669"/>
+  <text x="1026" y="95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1f2328">Workers Async</text>
+  <text x="1026" y="115" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#57606a">Estado &amp; Retry</text>
+
+  <!-- Node 2 Lower: Airflow · Spark -->
+  <g clip-path="url(#node-etl-clip)">
+    <rect x="866" y="174" width="120" height="64" rx="10" fill="#ffffff"/>
+    <rect x="866" y="174" width="120" height="3" fill="#4f46e5"/>
+  </g>
+  <rect x="866.5" y="174.5" width="119" height="63" rx="10" stroke="#d0d7de" stroke-width="1"/>
+  <circle class="node-led" style="animation-delay: 1.6s;" cx="972" cy="190" r="2.6" fill="#4f46e5"/>
+  <text x="878" y="201" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f2328">Airflow · Spark</text>
+  <text x="878" y="221" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#57606a">Motor ETL</text>
+
+  <!-- Node 3 Lower: Medallion Stack -->
+  <rect x="1014" y="148" width="126" height="106" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="1026" y="166" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="0.9" fill="#6e7781">MEDALHÃO</text>
+
+  <rect x="1024" y="174" width="106" height="21" rx="5" fill="#ffedd5" stroke="#b45309" stroke-opacity="0.45" stroke-width="1"/>
+  <rect class="medallion-hl" style="animation-delay: 0s;" x="1024" y="174" width="106" height="21" rx="5" fill="#b45309" stroke="#b45309" stroke-width="1.2"/>
+  <circle cx="1036" cy="184.5" r="3.5" fill="#b45309"/>
+  <text x="1046" y="188.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" fill="#1f2328">Bronze</text>
+
+  <rect x="1024" y="199" width="106" height="21" rx="5" fill="#f1f5f9" stroke="#64748b" stroke-opacity="0.45" stroke-width="1"/>
+  <rect class="medallion-hl" style="animation-delay: -3.0s;" x="1024" y="199" width="106" height="21" rx="5" fill="#64748b" stroke="#64748b" stroke-width="1.2"/>
+  <circle cx="1036" cy="209.5" r="3.5" fill="#64748b"/>
+  <text x="1046" y="213.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" fill="#1f2328">Silver</text>
+
+  <rect x="1024" y="224" width="106" height="21" rx="5" fill="#fef3c7" stroke="#d97706" stroke-opacity="0.55" stroke-width="1"/>
+  <rect class="medallion-hl" style="animation-delay: -1.5s;" x="1024" y="224" width="106" height="21" rx="5" fill="#d97706" stroke="#d97706" stroke-width="1.2"/>
+  <circle cx="1036" cy="234.5" r="3.5" fill="#d97706"/>
+  <text x="1046" y="238.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" fill="#1f2328">Gold</text>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="224" viewBox="0 0 1200 224" fill="none" role="img" aria-label="Engineering Focus">
+  <defs>
+    <linearGradient id="card-sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient><clipPath id="card-clip-0"><rect x="12" y="10" width="380" height="204" rx="14"/></clipPath><clipPath id="track-clip-0"><rect x="34" y="198" width="336" height="2" rx="1"/></clipPath><clipPath id="card-clip-1"><rect x="410" y="10" width="380" height="204" rx="14"/></clipPath><clipPath id="track-clip-1"><rect x="432" y="198" width="336" height="2" rx="1"/></clipPath><clipPath id="card-clip-2"><rect x="808" y="10" width="380" height="204" rx="14"/></clipPath><clipPath id="track-clip-2"><rect x="830" y="198" width="336" height="2" rx="1"/></clipPath>
+    <style>
+      @keyframes icon-float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-1.8px); }
+      }
+      .icon-float {
+        animation: icon-float 3.6s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+  <g clip-path="url(#card-clip-0)">
+    <rect x="12" y="10" width="380" height="204" rx="14" fill="#161b22"/>
+    <rect x="12" y="10" width="380" height="3" fill="#38bdf8"/>
+    <rect x="-128" y="10" width="140" height="3" fill="url(#card-sheen)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="520 0" dur="4.2s" begin="-0.0s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="12.5" y="10.5" width="379" height="203" rx="14" stroke="#30363d" stroke-width="1"/>
+
+  <rect x="34" y="32" width="38" height="38" rx="10" fill="#0c2d48"/>
+  <g transform="translate(43, 41)"><g class="icon-float" style="animation-delay: -0.0s;" stroke="#38bdf8" stroke-width="1.95" stroke-linecap="round" stroke-linejoin="round" fill="none"><polyline points="7 5 2 10 7 15"/><polyline points="13 5 18 10 13 15"/><line x1="11.5" y1="3.5" x2="8.5" y2="16.5"/></g></g>
+  <text x="84" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#f0f6fc">Backend &amp; APIs</text>
+  <line x1="34" y1="84" x2="370" y2="84" stroke="#21262d" stroke-width="1"/>
+  <circle cx="40" cy="108" r="3" fill="#38bdf8"/><text x="52" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">APIs REST com FastAPI e Spring Boot 3</text><circle cx="40" cy="138" r="3" fill="#38bdf8"/><text x="52" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">Arquitetura em camadas, JPA e MongoDB</text><circle cx="40" cy="168" r="3" fill="#38bdf8"/><text x="52" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">Testes automatizados com Pytest e JUnit</text>
+  <rect x="34" y="198" width="336" height="2" rx="1" fill="#21262d"/>
+  <g clip-path="url(#track-clip-0)">
+    <rect x="-58" y="198" width="90" height="2" rx="1" fill="#38bdf8" fill-opacity="0.72">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="430 0" dur="3.8s" begin="-0.0s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g clip-path="url(#card-clip-1)">
+    <rect x="410" y="10" width="380" height="204" rx="14" fill="#161b22"/>
+    <rect x="410" y="10" width="380" height="3" fill="#818cf8"/>
+    <rect x="270" y="10" width="140" height="3" fill="url(#card-sheen)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="520 0" dur="4.2s" begin="-1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="410.5" y="10.5" width="379" height="203" rx="14" stroke="#30363d" stroke-width="1"/>
+
+  <rect x="432" y="32" width="38" height="38" rx="10" fill="#1e1b4b"/>
+  <g transform="translate(441, 41)"><g class="icon-float" style="animation-delay: -0.9s;" stroke="#818cf8" stroke-width="1.95" stroke-linecap="round" stroke-linejoin="round" fill="none"><polygon points="10 2 2 6.5 10 11 18 6.5 10 2"/><polyline points="2 10.5 10 15 18 10.5"/><polyline points="2 14.5 10 19 18 14.5"/></g></g>
+  <text x="482" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#f0f6fc">Engenharia de Dados</text>
+  <line x1="432" y1="84" x2="768" y2="84" stroke="#21262d" stroke-width="1"/>
+  <circle cx="438" cy="108" r="3" fill="#818cf8"/><text x="450" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">Pipelines ETL com Apache Airflow</text><circle cx="438" cy="138" r="3" fill="#818cf8"/><text x="450" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">Processamento com PySpark e Parquet</text><circle cx="438" cy="168" r="3" fill="#818cf8"/><text x="450" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">Arquitetura Medalhão (Bronze · Silver · Gold)</text>
+  <rect x="432" y="198" width="336" height="2" rx="1" fill="#21262d"/>
+  <g clip-path="url(#track-clip-1)">
+    <rect x="340" y="198" width="90" height="2" rx="1" fill="#818cf8" fill-opacity="0.72">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="430 0" dur="3.8s" begin="-1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g clip-path="url(#card-clip-2)">
+    <rect x="808" y="10" width="380" height="204" rx="14" fill="#161b22"/>
+    <rect x="808" y="10" width="380" height="3" fill="#34d399"/>
+    <rect x="668" y="10" width="140" height="3" fill="url(#card-sheen)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="520 0" dur="4.2s" begin="-2.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="808.5" y="10.5" width="379" height="203" rx="14" stroke="#30363d" stroke-width="1"/>
+
+  <rect x="830" y="32" width="38" height="38" rx="10" fill="#063b2d"/>
+  <g transform="translate(839, 41)"><g class="icon-float" style="animation-delay: -1.8s;" stroke="#34d399" stroke-width="1.95" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="2" y="3" width="16" height="6" rx="1.5"/><rect x="2" y="12" width="16" height="6" rx="1.5"/><circle cx="5.5" cy="6" r="0.9" fill="#34d399" stroke="none"/><circle cx="5.5" cy="15" r="0.9" fill="#34d399" stroke="none"/></g></g>
+  <text x="880" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#f0f6fc">Mensageria &amp; DevOps</text>
+  <line x1="830" y1="84" x2="1166" y2="84" stroke="#21262d" stroke-width="1"/>
+  <circle cx="836" cy="108" r="3" fill="#34d399"/><text x="848" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">Consumidores assíncronos com RabbitMQ</text><circle cx="836" cy="138" r="3" fill="#34d399"/><text x="848" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">Microsserviços com Spring Cloud e Gateway</text><circle cx="836" cy="168" r="3" fill="#34d399"/><text x="848" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#8b949e">Ambientes containerizados com Docker e Linux</text>
+  <rect x="830" y="198" width="336" height="2" rx="1" fill="#21262d"/>
+  <g clip-path="url(#track-clip-2)">
+    <rect x="738" y="198" width="90" height="2" rx="1" fill="#34d399" fill-opacity="0.72">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="430 0" dur="3.8s" begin="-2.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
